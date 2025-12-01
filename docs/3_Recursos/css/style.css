@@ -1,4 +1,4 @@
- /*[GENERAL SETTINGS]*/
+  /*[GENERAL SETTINGS]*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -203,7 +203,7 @@ header {
 .sentimentos img {
   max-width: 100px;
   margin-left: 10px;
-  transition: transform 0.3s ease; /
+  transition: transform 0.3s ease; 
   cursor: pointer;
 }
 
@@ -277,7 +277,11 @@ header {
 }
 
 #inspirar {
-  margin-left: 85px;
+  margin-bottom: 30px;
+}
+
+#expirar{
+  margin-top: 30px;
 }
 
 .btnRespiracao {
@@ -491,5 +495,3 @@ margin-top: 10px;
 #botao:hover {
     background-color:#4BA2E9;
 }
-
-
