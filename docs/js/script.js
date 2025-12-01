@@ -43,4 +43,13 @@ gsap.from(".imagem", {
 });
 
 
+const gira = document.querySelector(".fundo");
+
+gsap.to(gira, {
+  rotation:360,
+  repeat:-1,
+  duration:5,
+  ease:"none"
+})
+
 
