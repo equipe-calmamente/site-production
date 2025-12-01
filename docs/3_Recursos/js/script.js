@@ -229,3 +229,4 @@ gsap.from(".container .container-images-banner3", {
     botao.addEventListener('click', gerenciarRespiracao);
     criarAnimacaoRespiracao();
 });
+
