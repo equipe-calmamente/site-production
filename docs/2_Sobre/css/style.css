@@ -129,6 +129,30 @@ header {
     font-size: 35px;
 }
 
+.imagem{
+    position: relative;
+    align-self: center;
+    display: grid;
+}
+
+.fundo{
+    height: 400px;
+}
+
+.smile{
+    position: absolute;
+    z-index: 2;
+    height: 190px;
+    top: 100px;
+}
+
+.detail{
+   align-self: center;
+   position: absolute;
+   height: 350px;
+   top: 90px;
+}
+
  /*[BANNER 2]*/
 
 .banner_2 {
