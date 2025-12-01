@@ -41,3 +41,34 @@ gsap.from(".imagem", {
   duration: 1.3,
   delay:2
 });
+
+
+//relogio
+const targetDate = new Date("Jan 1, 2026 00:00:00").getTime();
+
+
+const countdownInterval = setInterval(function() {
+    
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    function formatTime(time) {
+        return time < 10 ? "0" + time : time;
+    }
+
+    document.getElementById("days").innerText = formatTime(days);
+    document.getElementById("hours").innerText = formatTime(hours);
+    document.getElementById("minutes").innerText = formatTime(minutes);
+    document.getElementById("seconds").innerText = formatTime(seconds);
+
+    
+    if (distance < 0) {
+        clearInterval(countdownInterval); 
+        document.getElementById("countdown-timer").innerHTML = "<h4>A contagem regressiva terminou!</h4>";
+    }
+}, 1000); 
