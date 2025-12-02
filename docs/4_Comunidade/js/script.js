@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger);
+
 gsap.from(".menu", {
   opacity: 0,
   y: 20,
@@ -61,10 +63,10 @@ const countdownInterval = setInterval(function() {
         return time < 10 ? "0" + time : time;
     }
 
-    document.getElementById('#days').innerText = formatTime(days);
-    document.getElementById('#hours').innerText = formatTime(hours);
-    document.getElementById('#minutes').innerText = formatTime(minutes);
-    document.getElementById('#seconds').innerText = formatTime(seconds);
+    document.getElementById('days').innerText = formatTime(days);
+    document.getElementById('hours').innerText = formatTime(hours);
+    document.getElementById('minutes').innerText = formatTime(minutes);
+    document.getElementById('seconds').innerText = formatTime(seconds);
 
     
     if (distance < 0) {
