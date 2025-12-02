@@ -78,18 +78,6 @@ Conteúdos avançados e experiências exclusivas:
 
 ---
 
-##  Tecnologias (MVP sugerido)
-- **Frontend:** Next.js + TailwindCSS  
-- **Backend/API:** Node.js (Express) ou NestJS  
-- **Banco de dados:** MongoDB ou PostgreSQL  
-- **Autenticação:** Auth0 ou Firebase Auth  
-- **Pagamentos Premium:** Stripe / Mercado Pago  
-- **Infraestrutura:** Vercel / Railway / Supabase  
-- **CMS (Artigos):** Strapi / Sanity  
-- **Comunidade:** Discourse ou fórum integrado
-
----
-
 ## Parcerias e Voluntariado
 
 ### Colaboradores
