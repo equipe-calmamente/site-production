@@ -63,10 +63,10 @@ const countdownInterval = setInterval(function() {
         return time < 10 ? "0" + time : time;
     }
 
-    document.getElementById('days').innerText = formatTime(days);
-    document.getElementById('hours').innerText = formatTime(hours);
-    document.getElementById('minutes').innerText = formatTime(minutes);
-    document.getElementById('seconds').innerText = formatTime(seconds);
+    document.querySelector("#days").innerText = formatTime(days);
+    document.querySelector("#hours").innerText = formatTime(hours);
+    document.querySelector("#minutes").innerText = formatTime(minutes);
+    document.querySelector("#seconds").innerText = formatTime(seconds);
 
     
     if (distance < 0) {
