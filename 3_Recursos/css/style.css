@@ -1,0 +1,1127 @@
+/*[GENERAL SETTINGS]*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #ece8fd;
+}/*[GENERAL SETTINGS]*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  background-color: #ece8fd;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1{
+  color: #2b3e56;
+  font-size:2rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2b3e56;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #2b3e56;
+  font-size: 1.3rem;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*[NAVIGATION MENU]*/
+
+.container-header {
+  max-width: 1500px;
+}
+
+header {
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+}
+
+.navegacao {
+  margin: 0 auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.navegacao ul {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navegacao img {
+  max-width: 220px;
+}
+
+
+.uai {
+  margin-top: 30vh;
+}
+
+.menu a {
+  color: #2b3e56;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.menu a:hover {
+  color: #8087f2;
+}
+
+.inicio-linha {
+  text-decoration: underline;
+}
+
+#btn-mobile{
+  display: none;
+}
+
+#menu-mobile{
+  display: none;
+}
+
+
+.menu {
+  list-style-type: none;
+  display: flex; 
+  padding: 0;
+  margin: 0;
+}
+
+.menu li a {
+
+  display: block; 
+  padding: 5px 15px; 
+  text-decoration: none;
+  color: #333;
+
+
+  position: relative; 
+}
+
+.menu li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: #c9c5ff; 
+  width: 0%; 
+  transition: width 0.3s ease; 
+}
+
+.menu li a:hover::after {
+  width: 100%; 
+}
+
+.menu li a.active::after {
+  width: 100%; 
+  background-color: #000000; 
+  transition: none; 
+}
+
+
+
+
+/*[BANNER 1]*/
+
+.banner_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px auto 0px auto;
+  align-items: center;
+  justify-self: center;
+  max-width: 1500px;
+  gap: 80px;
+  padding: 20px 20px;
+  height: 600px;
+
+}
+
+.banner_1 .texto {
+  align-self: center;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  min-width: 400px;
+}
+
+.banner_1 img {
+  max-width: 500px;
+  display: block;
+    margin-left: 100px;
+}
+
+.banner_1 .img-comunidade {
+    justify-items:center;
+}
+
+
+
+/*[BANNER 2]*/
+
+.banner_2 {
+  margin: 80px auto 0px auto;
+  align-items: center;
+  justify-items: center;
+  max-width: 1500px;
+  gap: 150px;
+}
+
+
+.bannerLimiteTamanho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  max-width: 1200px;
+  background-color: #f4f2ff;
+  border-radius: 40px;
+  padding: 16px 126px 30px;
+  gap: 40px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+.banner_2 * {
+  margin: 0;
+}
+.banner_2 .p-citacao{
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+.containerSentimentos {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.sentimentos img {
+  margin-bottom: 20px;
+  max-width: 100px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.sentimentos img:hover {
+  transform: scale(1.2);
+}
+
+
+/*[BANNER 3]*/
+
+.banner_3 {
+  margin: 80px auto 0px auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+  gap: 150px;
+}
+
+.bannerLimiteTamanho2 {
+  display: flex;
+  height: 380px;
+  max-width: 1200px;
+  background-color: #f4f2ff;
+  border-radius: 40px;
+  padding: 16px 126px 30px;
+  gap: 40px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+.banner_3 img {
+  width: 220px;
+  margin-left: 30px;
+}
+
+.exercicioRespiracao {
+  display: flex;
+  width: 100%;
+}
+
+
+.exercicioRespiracao .respirar {
+  width: 100%;
+}
+
+.containerExerciciosInterativo {
+  display: grid;
+  width: 100%;
+  gap: 30px;
+
+  height: 200px;
+  margin-top: 30px;
+}
+
+.containerExerciciosInterativo h2 {
+  margin-top: 60px;
+}
+
+#barraTempo {
+  height: 4px;
+  border-radius: 40px;
+  width: 600px;
+  height: 20px;
+  background-color: #cecece;
+  background: #cecece;
+}
+
+.textoRespiracao {
+  font-weight: 400;
+  color: #505050;
+  text-align: left;
+}
+
+#inspirar {
+  margin-bottom: 30px;
+}
+
+#expirar {
+  margin-top: 30px;
+}
+
+.btnRespiracao {
+  border: none;
+  background-color: #8087f2;
+  padding: 10px 16px;
+  border-radius: 15px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+}
+
+.banner_4 {
+  margin: 80px auto 0px auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+  gap: 150px;
+  background-color: #ece8fd;
+}
+
+.bannerLimiteTamanho3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  height: 480px;
+  max-width: 1200px;
+  background-color: #f4f2ff;
+  border-radius: 40px;
+  padding: 16px 30px 30px;
+  gap: 40px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+#textoCitacao {
+  word-spacing: 0px;
+  text-align: justify;
+  padding: 10px 40px;
+}
+
+.containerCitacao,
+.playlist {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 20px 15px;
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+.containerCitacao h2,
+p {
+  margin: 0;
+}
+
+.playlist h2,
+p {
+  margin: 0;
+}
+
+
+#containerCitacaoAlinhamento {
+  margin-left: 0 auto;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
+}
+
+#playlistAlinhamento {
+  margin-right: 0 auto;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.botoes {
+  display: flex;
+  justify-self: center;
+}
+
+.botaoPlayPause {
+  width: 70px;
+}
+
+.botoes img {
+  cursor: pointer;
+}
+
+.playlistCapa {
+  width: 150px;
+}
+
+.relaxamente {
+  margin: auto 0;
+}
+
+#textoAutorCitacao {
+  text-align: right;
+  font-size: 1rem;
+  margin-right: 30px;
+  color: #505050;
+}
+
+.citacaoAudio {
+  display: flex;
+  justify-content: center;
+}
+
+.citacaoAudio button {
+  margin: 0;
+}
+
+.desativa {
+  display: none;
+}
+
+/*[FOOTER]*/
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  color: #505050;
+  padding-top: 60px;
+  font-family: 'Inter', sans-serif;
+  border-bottom: 2px solid #5f67d4;
+  flex-wrap: nowrap;
+  gap: 40px;
+  max-width: 1500px;
+}
+
+.footer-container h3 {
+  color: #2b3e56;
+  font-size: 18px;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #f5f5f5;
+}
+
+.esquerda p {
+  max-width: 30ch;
+  margin-top: 10px;
+}
+
+.direita {
+  display: flex;
+}
+
+.direita a {
+  color: #505050;
+  font-size: 15px;
+}
+
+.copy p {
+  color: #505050;
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  margin: 0px;
+}
+
+.menuDois li {
+  margin-bottom: 10px;
+}
+
+.final-img {
+  width: 300px;
+}
+
+.cont {
+  text-align: center;
+  padding-top: 40px;
+  background-color: #ece8fd;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.cont h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #2b3e56;
+  font-family: 'Inter', sans-serif;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.1);
+}
+
+#botao:hover {
+  background-color: #4ba2e9;
+}
+
+
+#btn-mobile{
+   background-color: #5f67d4;
+  color: white;
+  border-radius: 8px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+ #btn-mobile img {
+  width: 30px; 
+  height: auto; 
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1{
+  color: #2b3e56;
+  font-size:2rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2b3e56;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #2b3e56;
+  font-size: 1.3rem;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*[NAVIGATION MENU]*/
+
+.container-header {
+  max-width: 1500px;
+}
+
+header {
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+}
+
+.navegacao {
+  margin: 0 auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.navegacao ul {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navegacao img {
+  max-width: 220px;
+}
+
+
+.uai {
+  margin-top: 30vh;
+}
+
+.menu a {
+  color: #2b3e56;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.menu a:hover {
+  color: #8087f2;
+}
+
+.inicio-linha {
+  text-decoration: underline;
+}
+
+#btn-mobile{
+  display: none;
+}
+
+#menu-mobile{
+  display: none;
+}
+
+
+/*[BANNER 1]*/
+
+.banner_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px auto 0px auto;
+  align-items: center;
+  justify-self: center;
+  max-width: 1500px;
+  gap: 80px;
+  padding: 20px 20px;
+  height: 600px;
+
+}
+
+.banner_1 .texto {
+  align-self: center;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  min-width: 400px;
+}
+
+.banner_1 img {
+  max-width: 500px;
+  display: block;
+    margin-left: 100px;
+}
+
+.banner_1 .img-comunidade {
+    justify-items:center;
+}
+
+
+
+/*[BANNER 2]*/
+
+.banner_2 {
+  margin: 80px auto 0px auto;
+  align-items: center;
+  justify-items: center;
+  max-width: 1500px;
+  gap: 150px;
+}
+
+
+.bannerLimiteTamanho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  max-width: 1200px;
+  background-color: #f4f2ff;
+  border-radius: 40px;
+  padding: 16px 126px 30px;
+  gap: 40px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+.banner_2 * {
+  margin: 0;
+}
+
+.containerSentimentos {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.sentimentos img {
+  margin-bottom: 20px;
+  max-width: 100px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.sentimentos img:hover {
+  transform: scale(1.2);
+}
+
+
+/*[BANNER 3]*/
+
+.banner_3 {
+  margin: 80px auto 0px auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+  gap: 150px;
+}
+
+.bannerLimiteTamanho2 {
+  display: flex;
+  height: 380px;
+  max-width: 1200px;
+  background-color: #f4f2ff;
+  border-radius: 40px;
+  padding: 16px 126px 30px;
+  gap: 40px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+.banner_3 img {
+  width: 220px;
+  margin-left: 30px;
+}
+
+.exercicioRespiracao {
+  display: flex;
+  width: 100%;
+}
+
+
+.exercicioRespiracao .respirar {
+  width: 100%;
+}
+
+.containerExerciciosInterativo {
+  display: grid;
+  width: 100%;
+  gap: 30px;
+
+  height: 200px;
+  margin-top: 30px;
+}
+
+.containerExerciciosInterativo h2 {
+  margin-top: 60px;
+}
+
+#barraTempo {
+  height: 4px;
+  border-radius: 40px;
+  width: 600px;
+  height: 20px;
+  background-color: #cecece;
+  background: #cecece;
+}
+
+.textoRespiracao {
+  font-weight: 400;
+  color: #505050;
+  text-align: left;
+}
+
+#inspirar {
+  margin-bottom: 30px;
+}
+
+#expirar {
+  margin-top: 30px;
+}
+
+.btnRespiracao {
+  border: none;
+  background-color: #8087f2;
+  padding: 10px 16px;
+  border-radius: 15px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+}
+
+.banner_4 {
+  margin: 80px auto 0px auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+  gap: 150px;
+  background-color: #ece8fd;
+}
+
+.bannerLimiteTamanho3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  height: 480px;
+  max-width: 1200px;
+  background-color: #f4f2ff;
+  border-radius: 40px;
+  padding: 16px 30px 30px;
+  gap: 40px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+#textoCitacao {
+  word-spacing: 0px;
+  text-align: justify;
+  padding: 10px 40px;
+}
+
+.containerCitacao,
+.playlist {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 20px 15px;
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+.containerCitacao h2,
+p {
+  margin: 0;
+}
+
+.playlist h2,
+p {
+  margin: 0;
+}
+
+
+#containerCitacaoAlinhamento {
+  margin-left: 0 auto;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
+}
+
+#playlistAlinhamento {
+  margin-right: 0 auto;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.botoes {
+  display: flex;
+  justify-self: center;
+}
+
+.botaoPlayPause {
+  width: 70px;
+}
+
+.botoes img {
+  cursor: pointer;
+}
+
+.playlistCapa {
+  width: 150px;
+}
+
+.relaxamente {
+  margin: auto 0;
+}
+
+#textoAutorCitacao {
+  text-align: right;
+  font-size: 1rem;
+  margin-right: 30px;
+  color: #505050;
+}
+
+.citacaoAudio {
+  display: flex;
+  justify-content: center;
+}
+
+.citacaoAudio button {
+  margin: 0;
+}
+
+.desativa {
+  display: none;
+}
+
+/*[FOOTER]*/
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  color: #505050;
+  padding-top: 60px;
+  font-family: 'Inter', sans-serif;
+  border-bottom: 2px solid #5f67d4;
+  flex-wrap: nowrap;
+  gap: 40px;
+  max-width: 1500px;
+}
+
+.footer-container h3 {
+  color: #2b3e56;
+  font-size: 18px;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #f5f5f5;
+}
+
+.esquerda p {
+  max-width: 30ch;
+  margin-top: 10px;
+}
+
+.direita {
+  display: flex;
+}
+
+.direita a {
+  color: #505050;
+  font-size: 15px;
+}
+
+.copy p {
+  color: #505050;
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.menuDois li {
+  margin-bottom: 10px;
+}
+
+.final-img {
+  width: 300px;
+}
+
+.cont {
+  text-align: center;
+  padding-top: 40px;
+  background-color: #ece8fd;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.cont h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #2b3e56;
+  font-family: 'Inter', sans-serif;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.1);
+}
+
+#botao:hover {
+  background-color: #4ba2e9;
+}
+
+
+#btn-mobile{
+   background-color: #5f67d4;
+  color: white;
+  border-radius: 8px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+ #btn-mobile img {
+  width: 30px; 
+  height: auto; 
+}
+
+.footerResponsivo {
+    margin-top: 50px;
+    background-color: #F5F5F5;
+    padding: 20px 0px;
+    width: 100vw;
+  }
+
+
+.footerResponsivo * {
+    margin: 0;
+    padding: 0;
+  }
+
+.footerGrid {
+    display: grid;
+    grid-template-rows: 1fr 1.25fr 0.5fr;
+    height: fit-content;
+    align-items: center;
+  }
+
+.logoMarca {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin-left: 16px;
+      gap: 15px;
+  }
+
+.logoMarca h2 {
+    font-size: 1.5rem;
+  }
+
+.logoImagem {
+    width: 80px;
+  }
+
+.logoImagem img {
+    width: 100%;
+  }
+
+.redesSociais {
+    display: grid;
+  }
+
+.redesSociais ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+.tamanhoImagemIcones {
+    height: 35px;
+  }
+
+.iconesRedes img {
+    height: 100%;
+  }
+
+.infoCalmamente {
+    width: 100vw;
+    text-align: center;
+  }
+
+.infoCalmamente p {
+    font-size: 0.8rem;
+    margin: 0px 15px;
+  }
+
+.toggleFooterResponsivo {
+    display: none;
+  }
