@@ -284,7 +284,6 @@ header {
   margin: 80px auto 0px auto;
   align-items: center;
   justify-self: center;
-  max-width: 1500px;
   padding: 20px 20px;
   margin: 80px auto 0px auto;
   gap: 150px;
@@ -294,8 +293,6 @@ header {
   align-self: center;
   padding: 20px 20px;
   margin: 20px 20px;
-  max-width: 1500px;
-  min-width: 400px;
 }
 
 .banner_3  p {

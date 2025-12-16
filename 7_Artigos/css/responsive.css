@@ -100,8 +100,8 @@
 
 @media (max-width: 500px) {
   .uai {
-   top: 8vh;
-   right: -6vh;
+   top: 2vh;
+   right: 1vh;
   }
 }
 
@@ -194,15 +194,17 @@
 
 @media (max-width: 500px) {
   .banner_3 {
-  margin: 50px auto 0 auto;
   display: grid;
   justify-items: center;
   gap: 0px;
+  padding: 0px;
+  margin: 50px auto 0 auto;
   }
 
   .banner_3 p {
   max-width: 30ch;
   text-align: center;
+  font-size: 1.1rem;
   }
 
   .banner_3 .texto{
@@ -221,7 +223,7 @@
 
 @media (max-width: 500px) {
   .banner_2 .imagem {
-  height: 420px;
+  height: 512px;
   }
 }
 
