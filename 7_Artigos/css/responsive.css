@@ -101,7 +101,7 @@
 @media (max-width: 500px) {
   .uai {
    top: 8vh;
-   right: -9vh;
+   right: -6vh;
   }
 }
 
@@ -195,10 +195,13 @@
 @media (max-width: 500px) {
   .banner_3 {
   margin: 50px auto 0 auto;
+  display: grid;
+  justify-items: center;
+  gap: 0px;
   }
 
   .banner_3 p {
-  max-width: 35ch;
+  max-width: 30ch;
   text-align: center;
   }
 
@@ -208,9 +211,6 @@
   text-align: center;
   }
 
-  .botao-blog{
-    margin-left: 28vw;
-  }
 } 
 
 @media (max-width: 500px) {
