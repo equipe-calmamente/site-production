@@ -63,6 +63,7 @@
           </ul>
         </nav>
       </div>
+      <div class="progress-bar" id="myBar"></div>
     </header>
     <!--T1.0 = END [NAVIGATION MENU]-->
     <!--T2.1 = START [BANNER 1]-->
@@ -88,58 +89,63 @@
 
     <main>
       <section>
-        <div class="container">
-          <div class="banner_2">
-            <div class="form-container">
-              <div class="tabs">
-                <button class="tab ativo">Parcerias</button>
-                <button class="tab">Voluntário</button>
-              </div>
-              <form class="formulario">
-                <div class="linha">
-                  <div class="campo">
-                    <label>Nome / Instituição</label>
-                    <input type="text" placeholder="Digite aqui" />
-                  </div>
-                  <div class="campo">
-                    <label>Email</label>
-                    <input type="email" placeholder="exemplo@email.com" />
-                  </div>
-                </div>
-                <div class="linha">
-                  <div class="campo">
-                    <label>Tipo de parceria</label>
-                    <select>
-                      <option>Selecione...</option>
-                      <option>Financeira</option>
-                      <option>Institucional</option>
-                    </select>
-                  </div>
-                  <div class="campo">
-                    <label>Mensagem</label>
-                    <textarea
-                      rows="3"
-                      placeholder="Escreva sua mensagem"
-                    ></textarea>
-                  </div>
-                </div>
-                <div class="linha">
-                  <div class="campo_checkbox">
-                    <input type="checkbox" id="novidades" />
-                    <label for="novidades"
-                      >Quero receber novidades e oportunidades de
-                      parcerias</label
-                    >
-                  </div>
-                  <button type="submit" class="botao" id="botao">
-                    Cadastre-se
-                  </button>
-                </div>
-              </form>
+  <div class="container">
+    <div class="banner_2">
+      <div class="form-container">
+        <div class="tabs">
+          <button class="tab ativo">Parcerias</button>
+          <button class="tab">Voluntário</button>
+        </div>
+        <form class="formulario" action="https://formspree.io/f/mldqyepl" method="POST">
+          
+          <input type="text" name="_gotcha" style="display:none" />
+
+          <div class="linha">
+            <div class="campo">
+              <label>Nome / Instituição</label>
+              <input type="text" placeholder="Digite aqui" name="name" required />
+            </div>
+            <div class="campo">
+              <label>Email</label>
+              <input type="email" placeholder="exemplo@email.com" name="email" required />
             </div>
           </div>
-        </div>
-      </section>
+
+          <div class="linha">
+            <div class="campo">
+              <label>Tipo de parceria</label>
+              <select name="type-contact" required>
+                <option value="">Selecione...</option>
+                <option value="Financeira">Financeira</option>
+                <option value="Institucional">Institucional</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label>Mensagem</label>
+              <textarea
+                rows="3"
+                placeholder="Escreva sua mensagem"
+                name="message"
+                required></textarea>
+            </div>
+          </div>
+
+          <div class="linha">
+            <div class="campo_checkbox">
+              <input type="checkbox" id="novidades" name="news" value="Sim" />
+              <label for="novidades">
+                Quero receber novidades e oportunidades de parcerias
+              </label>
+            </div>
+            <button type="submit" class="botao" id="botao">
+              Cadastre-se
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
     </main>
 
     <!--T3.0 = END [BANNER 2]-->
