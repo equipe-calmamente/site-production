@@ -1,5 +1,8 @@
 #  Calmamente — Sua comunidade de bem-estar emocional
 
+<img width="188" height="218" alt="Group 1" src="https://github.com/user-attachments/assets/267a3ceb-9fed-44af-8a54-088729ef0939" />
+
+
 O **Calmamente** é uma plataforma digital criada para promover cuidado emocional, meditação acessível e uma comunidade segura de apoio.  
 Nosso foco é ajudar pessoas a **equilibrar mente, corpo e sentimentos** por meio de conteúdo empático, atividades guiadas e conexões humanas.
 
@@ -120,6 +123,14 @@ Para manter o espaço saudável:
 ##  Contato
 **E-mail:** contato@calmamente.com  
 **Instagram:** @calmamente_br
+
+---
+
+## Projeto de finalização do Curso Transforme-se do Serasa Experian e Instituto Proa
+Nós gostariamos de agradecer a equipe do Serasa Experian, ao nosso professor Alexandre, a 
+equipe do Transforme-se, ao Instituto Proa, nossa professora Nivea, e a todos vocês.
+Muito obrigada de coração! Vamos juntos construir um futuro emocionalmente mais 
+saudavel.
 
 
 
