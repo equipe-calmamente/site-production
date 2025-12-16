@@ -288,10 +288,9 @@ header {
   padding: 20px 20px;
   margin: 80px auto 0px auto;
   gap: 150px;
-  background-color: #ece8fd;
 }
 
-.banner_3 .texto {
+.banner_3 {
   align-self: center;
   padding: 20px 20px;
   margin: 20px 20px;
@@ -299,12 +298,33 @@ header {
   min-width: 400px;
 }
 
-.banner_3 .texto p {
+.banner_3  p {
   font-size: 1.3rem;
 }
 
 
+.blog{
+  text-align: center;
+  font-size: 2rem;
+}
 
+.blog-texto{
+  width: 90ch;
+}
+
+.botao-blog{
+   background-color: #42489b;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px 20px;
+    margin-left: 34vw;
+}
 
 /*[FOOTER]*/
 
@@ -416,7 +436,6 @@ header {
     margin-top: 20px;
     background-color: #F5F5F5;
     padding: 20px 0px;
-    width: 100vw;
   }
 
 

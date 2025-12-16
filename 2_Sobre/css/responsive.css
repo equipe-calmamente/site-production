@@ -142,7 +142,7 @@
     width: 168px;
     top: 20px;
     left: 10px;
-  }
+  }}
 
 @media (max-width: 500px) {
   .banner_1 .texto h1{
@@ -190,15 +190,23 @@
 }
 
 
-@media (max-width: 500px) {
-  .banner_3 p {
-  max-width: 20ch;
-  }
-} 
+
 
 @media (max-width: 500px) {
   .banner_3 {
   margin: 50px auto 0 auto;
+  }
+
+  .banner_3 p {
+  max-width: 20ch;
+  }
+
+  .banner_3 .texto{
+  margin: 0;
+  padding: 0;
+  min-width: 0px;
+
+  text-align: center;
   }
 } 
 
@@ -221,15 +229,7 @@
 }
 
 
-@media (max-width: 500px) {
-  .banner_3 .texto{
-  margin: 0;
-  padding: 0;
-  min-width: 0px;
 
-  text-align: center;
-  }
-}
 
 @media (max-width: 500px) {
   .final-img {
@@ -252,4 +252,3 @@
   transition: none;
 }
 }
-

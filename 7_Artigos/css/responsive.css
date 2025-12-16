@@ -100,8 +100,8 @@
 
 @media (max-width: 500px) {
   .uai {
-   top: 4vh;
-   right: 1vh;
+   top: 8vh;
+   right: -9vh;
   }
 }
 
@@ -109,7 +109,7 @@
   .banner_1 {
     grid-template-columns: 1fr; /* vira 1 coluna */
     margin: 90px auto 0 auto;
-    gap: 5px;
+    gap: 10px;
     justify-items: center;
   }
 }
@@ -126,7 +126,23 @@
   .imagem{
     margin: 0px;
   }
-}
+
+  .banner_1 .fundo{
+    width: 250px;
+    height: 280px;
+  }
+
+  .banner_1 .smile{
+  width: 128px;
+  top: 48px;
+  left: 62px;
+  }
+
+  .banner_1 .detail{
+    width: 168px;
+    top: 20px;
+    left: 10px;
+  }}
 
 @media (max-width: 500px) {
   .banner_1 .texto h1{
@@ -177,6 +193,27 @@
 
 
 @media (max-width: 500px) {
+  .banner_3 {
+  margin: 50px auto 0 auto;
+  }
+
+  .banner_3 p {
+  max-width: 35ch;
+  text-align: center;
+  }
+
+  .banner_3 .texto{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  }
+
+  .botao-blog{
+    margin-left: 28vw;
+  }
+} 
+
+@media (max-width: 500px) {
   .banner_2 {
     margin: 50px auto 0 auto;
   }
@@ -184,7 +221,7 @@
 
 @media (max-width: 500px) {
   .banner_2 .imagem {
-  height: 490px;
+  height: 420px;
   }
 }
 
@@ -193,6 +230,7 @@
   margin-top: 0;
   }
 }
+
 
 
 
