@@ -1,6 +1,3 @@
-<!--SYSTEM_CORE = START [HTML]-->
-<!--T0.1 = START [HTML GENERAL SETTINGS]-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -10,7 +7,7 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <meta
       name="description"
-      content="Entre em contato com a equipe do CalmaMente para dúvidas, sugestões ou apoio. Estamos aqui para ajudar sua jornada de bem-estar."
+      content="Conheça a história do CalmaMente, um projeto criado no Transforme-se para promover cuidado emocional, autoconhecimento e apoio à saúde mental."
     />
     <script>
       (function (d) {
@@ -21,7 +18,7 @@
       })(document);
     </script>
     <link rel="icon" href="../img/favicon.svg" type="image/x-icon">
-    <title>CalmaMente-Contato</title>
+    <title>CalmaMente-Obrigado</title>
   </head>
   <body>
     <!--T1.1 = START [NAVIGATION MENU]-->
@@ -30,7 +27,7 @@
       <div class="navegacao">
         <div class="logo">
           <a href="../index.html"
-            ><img src="./img/logo_name.svg" alt="Logo CalmaMente"
+            ><img src="img/logo_name.svg" alt="Logo CalmaMente"
           /></a>
         </div>
 
@@ -40,31 +37,28 @@
             <li>
               <a href="../index.html">Início</a>
             </li>
-            <li><a href="../2_Sobre/sobre.html">Sobre</a></li>
+            <li>
+            <a href="./sobre.html" class="active">Sobre</a>
+            </li>
             <li><a href="../3_Recursos/recursos.html">Recursos</a></li>
             <li><a href="../4_Comunidade/comunidade.html">Comunidade</a></li>
-            <li>
-                <a href="./contato.html" class="active">Contato</a>
-            </li>
+            <li><a href="../5_Contato/contato.html">Contato</a></li>
           </ul>
 
-          <ul id="menu-mobile">
-            <li>
-              <a href="../index.html">Início</a>
-            </li>
-            <li><a href="../2_Sobre/sobre.html">Sobre</a></li>
-            <li><a href="../3_Recursos/recursos.html">Recursos</a></li>
-            <li><a href="../4_Comunidade/comunidade.html">Comunidade</a></li>
-            <li>
-              <span class="inicio-linha-mobile">
-                <a href="./contato.html">Contato</a>
-              </span>
-            </li>
-          </ul>
+             <ul id="menu-mobile">
+              <li><a href="../index.html">Início</a>
+              </li>
+              <li> <span class="inicio-linha-mobile"><a href="./2_Sobre/sobre.">Sobre</a></span></li>
+              <li><a href="../3_Recursos/recursos.html">Recursos</a></li>
+              <li><a href="../4_Comunidade/comunidade.html">Comunidade</a></li>
+              <li><a href="../5_Contato/contato.html">Contato</a></li>
+            </ul>
+          </nav>
         </nav>
       </div>
       <div class="progress-bar" id="myBar"></div>
     </header>
+
     <!--T1.0 = END [NAVIGATION MENU]-->
     <!--T2.1 = START [BANNER 1]-->
 
@@ -72,121 +66,33 @@
       <div class="container">
         <div class="banner_1">
           <div class="texto">
-            <div class="textos">
-              <h1>Seja um Parceiro do CalmaMente</h1>
-              <p>Vamos construir juntos uma rede de apoio?</p>
-            </div>
+            <h1>Obrigado</h1>
+            <p>Recebemos suas informações sobre parcerias. Nossa equipe entrará em contato em breve através do e-mail fornecido</p>
+            <a href="../5_Contato/contato.html" class="botao-voltar">Voltar para o site</a>
           </div>
-          <div class="figura">
-            <img src="./img/contato_banner1.png" alt="ilustração" />
+          <div class="imagem">
+            <img
+              class="fundo"
+              src="./assets/arco.svg"
+              alt="Logo do CalmaMente"
+            />
+            <img class="smile" src="./assets/smile.svg" alt="" />
+            <img class="detail" src="./assets/detail.svg" alt="" />
           </div>
         </div>
       </div>
     </section>
 
     <!--T2.0 = END [BANNER 1]-->
-    <!--T3.1 = START [BANNER 2]-->
-
-    <main>
-      <section>
-  <div class="container">
-    <div class="banner_2">
-      <div class="form-container">
-        <div class="tabs">
-          <button class="tab ativo">Parcerias</button>
-          <button class="tab">Voluntário</button>
-        </div>
-        <form class="formulario" action="https://formspree.io/f/mldqyepl" method="POST">
-          
-          <input type="text" name="_gotcha" style="display:none" />
-
-          <div class="linha">
-            <div class="campo">
-              <label>Nome / Instituição</label>
-              <input type="text" placeholder="Digite aqui" name="name" required />
-            </div>
-            <div class="campo">
-              <label>Email</label>
-              <input type="email" placeholder="exemplo@email.com" name="email" required />
-            </div>
-          </div>
-
-          <div class="linha">
-            <div class="campo">
-              <label>Tipo de parceria</label>
-              <select name="type-contact" required>
-                <option value="">Selecione...</option>
-                <option value="Financeira">Financeira</option>
-                <option value="Institucional">Institucional</option>
-              </select>
-            </div>
-            <div class="campo">
-              <label>Mensagem</label>
-              <textarea
-                rows="3"
-                placeholder="Escreva sua mensagem"
-                name="message"
-                required></textarea>
-            </div>
-          </div>
-
-          <div class="linha">
-            <div class="campo_checkbox">
-              <input type="checkbox" id="novidades" name="news" value="Sim" />
-              <label for="novidades">
-                Quero receber novidades e oportunidades de parcerias
-              </label>
-            </div>
-            <button type="submit" class="botao" id="botao">
-              Cadastre-se
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-    </main>
-
-    <!--T3.0 = END [BANNER 2]-->
-    <!--T4.1 = START [BANNER 3]-->
-
-    <section id="redesAntiga">
-      <div class="container">
-        <div class="banner_3">
-          <section class="social_media">
-            <div class="cont">
-              <h2>Siga-nos</h2>
-              <div class="icon">
-                <a
-                  href="https://www.linkedin.com/in/calmamente/"
-                  target="_blank"
-                  ><img src="./img/linkedin.svg" alt="LinkedIn"
-                /></a>
-                <a href="mailto:calmamentesite@gmail.com" target="_blank"
-                  ><img src="./img/email.svg" alt="Email"
-                /></a>
-                <a
-                  href="https://www.instagram.com/calmamente_br/?igsh=ZGs4c3k2cTY3Mjc%3D#"
-                  target="_blank"
-                  ><img src="./img/instagram.svg" alt="Instagram"
-                /></a>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-      <a href="../6_Obrigado/obrigado.html">Teste</a>
-    </section>
-
-    <!--T4.0 = END [BANNER 3]-->
-    <!--T4.1 = START [FOOTER]-->
+   
+    
+    <!--T7.1 = START [FOOTER]-->
 
     <footer class="footer">
       <div class="footer-container">
         <div class="esquerda">
           <div class="final-img">
-            <img src="../img/logo_name.svg" alt="logo" />
+            <img src="img/logo_name.svg" alt="logo" />
           </div>
         </div>
         <div class="direita">
@@ -219,7 +125,7 @@
       </div>
     </footer>
 
-   <div class="footerResponsivo toggleFooterResponsivo" id="footerResponsivo">
+    <div class="footerResponsivo toggleFooterResponsivo" id="footerResponsivo">
         <div class="footerGrid">
             <div class="logoMarca">
                 <div class="logoImagem">
@@ -240,7 +146,8 @@
             </div>
         </div>
     </div>
-    <!--T4.0 = END [FOOTER]-->
+
+    <!--T7.0 = END [FOOTER]-->
     <div vw class="enabled">
       <div vw-access-button class="active"></div>
       <div vw-plugin-wrapper>
